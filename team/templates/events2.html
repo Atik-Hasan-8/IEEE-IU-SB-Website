@@ -1,0 +1,423 @@
+{% load static %}
+
+
+<!doctype html>
+<html lang="en">
+<head>
+   
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!--====== Title ======-->
+    <title>IEEE- IU Student Branch</title>
+    
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="/static/team/image/IEEEIUSBlogo.png" type="image/png">
+    
+    <!--====== Slick css ======-->
+    <link rel="stylesheet" href="/static/team/css/slick.css">
+    
+    <!--====== Animate css ======-->
+    <link rel="stylesheet" href="/static/team/css/animate.css">
+   
+    <!--====== Nice Select css ======-->
+    <link rel="stylesheet" href="/static/team/css/nice-select.css">
+    
+    <!--====== Nice Number css ======-->
+    <link rel="stylesheet" href="/static/team/css/jquery.nice-number.min.css">
+    
+
+    <!--====== Magnific Popup css ======-->
+    <link rel="stylesheet" href="/static/team/css/magnific-popup.css">
+    
+
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="/static/team/css/bootstrap.min.css">
+    
+    
+    <!--====== Fontawesome css ======-->
+    <link rel="stylesheet" href="/static/team/css/font-awesome.min.css">
+    
+    
+    <!--====== Default css ======-->
+    <link rel="stylesheet" href="/static/team/css/default.css">
+    
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="/static/team/css/style.css">
+    
+    <!--====== Responsive css ======-->
+    <link rel="stylesheet" href="/static/team/css/responsive.css">
+    
+  
+   
+</head>
+
+<body>
+   
+    <!--====== PRELOADER PART START ======-->
+ 
+    
+    <!--====== PRELOADER PART START ======-->
+    
+    <!--====== HEADER PART START ======-->
+    
+    <header id="header-part">
+        <div class="header-logo-support pt-30 pb-30">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <div class="logo">
+                            <a href="{% url 'home' %}">
+                                <img height="50px" width="75%" src="/static/team/image/IEEEIUSBlogo.png" alt="IEEELogo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-8">
+                        <div class="support-button float-right d-none d-md-block">
+                            <div class="support float-left">
+                                <div class="icon">
+                                    <img height="35px" src="/static/team/image/Support.png" alt="icon">
+                                </div>
+                                <div class="cont">
+                                    <p>Need Help? call us free</p>
+                                    <span>+8801712615896
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="button float-left">
+                                <a target="_blank" href="https://www.ieee.org/membership/join/index.html?WT.mc_id=hc_join" class="main-btn">Join</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- header logo support -->
+        
+        <div class="navigation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-md-10 col-sm-9 col-8">
+                        <nav class="navbar navbar-expand-lg">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item">
+                                        <a  href="{% url 'home' %}">Home</a>   
+                                    </li>
+                                    
+                                    <li class="nav-item">
+                                        <a href="{% url 'about' %}">About us</a>
+                                    </li>
+                                   
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="active" href="{% url 'events' %}">Events</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{% url 'teams' %}">Our Team</a>
+                                       
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{% url 'blog' %}">Blog</a>
+
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{% url 'contact' %}">Contact</a>
+                                       
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav> <!-- nav -->
+                    </div>
+                   
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div>
+        
+    </header>
+    
+    <!--====== HEADER PART ENDS ======-->
+   
+   
+    <!--====== PAGE BANNER PART START ======-->
+    
+    <section id="page-banner" class="pt-105 pb-110 bg_cover" data-overlay="8" style="background-image: url(/static/team/image/Banner1.jpg)">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="page-banner-cont">
+                        <h2>Events</h2>
+                        <nav aria-label="breadcrumb">
+                            
+                        </nav>
+                    </div>  <!-- page banner cont -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+    
+    <!--====== PAGE BANNER PART ENDS ======-->
+   
+    <!--====== EVENTS PART START ======-->
+    
+    <section id="event-page" class="pt-90 pb-120 gray-bg">
+        <div class="container">
+           <div class="row">
+               <div class="col-lg-6">
+                   <div class="singel-event-list mt-30">
+                       <div class="event-thum">
+                           <img height="193px" width="193px" src="/static/team/image/events2_1.jpg" alt="Event">
+                       </div>
+                       <div class="event-cont">
+                           <span><i class="fa fa-calendar"></i> 27 November, 2019</span>
+                            <a href="{% url 'event-single-21' %}"><h4>Future Trends of Networking</h4></a>
+                            <span><i class="fa fa-clock-o"></i>  2:00 pm - 4:00 pm</span>
+                            <span><i class="fa fa-map-marker"></i> IU Auditorim</span>
+                            <p class="text-justify">Future networking trends include the widespread adoption of 5G technology, enabling faster speeds....</p>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-lg-6">
+                   <div class="singel-event-list mt-30">
+                       <div class="event-thum">
+                           <img src="/static/team/image/event2_2.jpg" alt="Event">
+                       </div>
+                       <div class="event-cont">
+                           <span><i class="fa fa-calendar"></i> 27 November, 2019</span>
+                            <a href="{% url 'event-single-22' %}"><h4>Future Career Plan In Linux and Open Source</h4></a>
+                            <span><i class="fa fa-clock-o"></i> 10:00 Am - 3:00 Pm</span>
+                            <span><i class="fa fa-map-marker"></i> IU Auditorim</span>
+                            <p class="text-justify">The road to meta blogs refers to the journey of creating and developing blogs that discuss blogging itself. </p>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-lg-6">
+                   <div class="singel-event-list mt-30">
+                       <div class="event-thum">
+                           <img height="193px" width="193px" src="/static/team/image/event2_3.jpg" alt="Event">
+                       </div>
+                       <div class="event-cont">
+                           <span><i class="fa fa-calendar"></i> 17 May, 2022</span>
+                            <a href="{% url 'event-single-23' %}"><h4>Career As data analyst</h4></a>
+                            <span><i class="fa fa-clock-o"></i>  9:00 pm - 11:00 pm</span>
+                            <span><i class="fa fa-map-marker"></i> IU Auditorim</span>
+                            <p class="text-justify">A career in data analysis involves working with large datasets to extract valuable insights and support decision-making. </p>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-lg-6">
+                   <div class="singel-event-list mt-30">
+                       <div class="event-thum">
+                           <img height="193px" width="193px" src="/static/team/image/event2_4.jpg" alt="Event">
+                       </div>
+                       <div class="event-cont">
+                           <span><i class="fa fa-calendar"></i>5th June, 2021</span>
+                            <a href="{% url 'event-single-3' %}"><h4>IEEE IU SB Programming BootCamp</h4></a>
+                            <span><i class="fa fa-clock-o"></i> 2:30 pm - 4:00 pm</span>
+                            <span><i class="fa fa-map-marker"></i> IU .Auditorim</span>
+                            <p class="text-justify">  Our programming bootcamp is a comprehensive and intensive training program designed to equip</p>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-lg-6">
+                   <div class="singel-event-list mt-30">
+                       <div class="event-thum">
+                           <img  height="193px" src="/static/team/image/event2_5.jpg" alt="Event">
+                       </div>
+                       <div class="event-cont">
+                           <span><i class="fa fa-calendar"></i>3 may, 2021</span>
+                            <a href="{% url 'event-single-25' %}"><h4>Benefit and Scope of IEEE Computer Society Membership</h4></a>
+                            <span><i class="fa fa-clock-o"></i>  3:00 pm - 4:00 pm</span>
+                            <span><i class="fa fa-map-marker"></i> IU Auditorim</span>
+                            <p class="text-justify">
+                                The Institute of Electrical and Electronics Engineers (IEEE) is a global professional organization dedicated to advancing </p>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-lg-6">
+                <div class="singel-event-list mt-30">
+                    <div class="event-thum">
+                        <img height="193px" width="193px" src="/static/team/image/IeeeDay.jpg" alt="Event">
+                    </div>
+                    <div class="event-cont">
+                        <span><i class="fa fa-calendar"></i> 1 October 2019</span>
+                         <a href="{% url 'event-single' %}"><h4>IEEE Day</h4></a>
+                         <span><i class="fa fa-clock-o"></i> 10:00 Am - 3:00 Pm</span>
+                         <span><i class="fa fa-map-marker"></i> IU Auditorim</span>
+                         <p class="text-justify">Every year, IEEE members from IEEE Sections, Student Branches, Affinity groups, and Society Chapters join hands to celebrate IEEE Day...</p>
+                    </div>
+                </div>
+            </div>
+             
+           </div> <!-- row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="courses-pagination mt-50">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item">
+                                <a href="{% url 'events' %}" aria-label="Previous">
+                                    <i class="fa fa-angle-left"></i>
+                                </a>
+                            </li>
+                            <li class="page-item"><a  href="{% url 'events' %}">1</a></li>
+                            <li class="page-item"><a class="active text-light" href="#">2</a></li>
+                            
+                            <li class="page-item">
+                                <a href="{% url 'event2' %}" aria-label="Next">
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>  <!-- courses pagination -->
+                </div>
+            </div>  <!-- row -->
+        </div> <!-- container -->
+    </section>
+    
+    <!--====== EVENTS PART ENDS ======-->
+   
+    <!--====== FOOTER PART START ======-->
+    <footer id="footer-part">
+        <div class="footer-top  pt-40 pb-70">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-about mt-40">
+                            <div class="logo mr-100">
+                                <a href="#"><img height="50px" width="75%" src="/static/team/image/IEEEIUSBlogo.png" alt="Logo"></a>
+                            </div>
+                            <p class="text-justify">Stay connected with IEEE Islamic University Student Branch to be at the forefront of technological advancements.Connect with us on social media to stay updated on the latest news, opportunities, and innovations. Join us today and become a part of our dynamic and thriving tech community!</p>
+                            <ul class="mt-20">
+                                <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            </ul>
+                        </div> <!-- footer about -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="footer-link mt-40 ml-5">
+                            <div class="footer-title pb-25">
+                                <h6>Sitemap</h6>
+                            </div>
+                            <ul>
+                                <li><a href="{% url 'home' %}"><i class="fa fa-angle-right"></i>Home</a></li>
+                                <li><a href="{% url 'about' %}"><i class="fa fa-angle-right"></i>About us</a></li>
+                                
+                                
+                                <li><a href="{% url 'events' %}"><i class="fa fa-angle-right"></i>Event</a></li>
+
+                                <li><a href="{% url 'teams' %}"><i class="fa fa-angle-right"></i>Team</a></li>
+                                <li><a href="{% url 'contact' %}"><i class="fa fa-angle-right"></i>Contact</a></li>
+                            </ul>
+                          
+                        </div> <!-- footer link -->
+                    </div>
+                  
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-address mt-40">
+                            <div class="footer-title pb-25">
+                                <h6>Contact Us</h6>
+                            </div>
+                            <ul>
+                                <li>
+                                    <div class="icon">
+                                        <i class="fa fa-home"></i>
+                                    </div>
+                                    <div class="cont">
+                                        <p>Islamic University, Kushtia, Bangladesh</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="fa fa-phone"></i>
+                                    </div>
+                                    <div class="cont">
+                                        <p>+8801712615896
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="fa fa-envelope-o"></i>
+                                    </div>
+                                    <div class="cont">
+                                        <p>ieeeiustudentbranch@gmail.com</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div> <!-- footer address -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- footer top -->
+        
+       
+    </footer>
+    
+    
+    
+    <!--====== FOOTER PART ENDS ======-->
+   
+    <!--====== BACK TO TP PART START ======-->
+    
+    <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+    
+    <!--====== BACK TO TP PART ENDS ======-->
+   
+    
+    
+    
+    
+    
+    
+    
+    <!--====== jquery js ======-->
+    <script src="/static/team/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="/static/team/js/vendor/jquery-1.12.4.min.js"></script>
+
+    <!--====== Bootstrap js ======-->
+    <script src="/static/team/js/bootstrap.min.js"></script>
+    
+    <!--====== Slick js ======-->
+    <script src="/static/team/js/slick.min.js"></script>
+    
+    <!--====== Magnific Popup js ======-->
+    <script src="/static/team/js/jquery.magnific-popup.min.js"></script>
+    
+    <!--====== Counter Up js ======-->
+    <script src="/static/team/js/waypoints.min.js"></script>
+    <script src="/static/team/js/jquery.counterup.min.js"></script>
+    
+    <!--====== Nice Select js ======-->
+    <script src="/static/team/js/jquery.nice-select.min.js"></script>
+    
+    <!--====== Nice Number js ======-->
+    <script src="/static/team/js/jquery.nice-number.min.js"></script>
+    
+    <!--====== Count Down js ======-->
+    <script src="/static/team/js/jquery.countdown.min.js"></script>
+    
+    <!--====== Validator js ======-->
+    <script src="/static/team/js/validator.min.js"></script>
+    
+    <!--====== Ajax Contact js ======-->
+    <script src="/static/team/js/ajax-contact.js"></script>
+    
+    <!--====== Main js ======-->
+    <script src="/static/team/js/main.js"></script>
+    
+    <!--====== Map js ======-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC3Ip9iVC0nIxC6V14CKLQ1HZNF_65qEQ"></script>
+    <script src="/static/team/js/map-script.js"></script>
+
+</body>
+</html>
